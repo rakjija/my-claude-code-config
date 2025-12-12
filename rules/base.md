@@ -11,9 +11,20 @@
 
 ---
 
-## CLAUDE.md 작성 형식
+## CLAUDE.md 작성 절차
 
-프로젝트 CLAUDE.md 작성 요청 시 다음 형식 사용:
+프로젝트 CLAUDE.md 작성 요청 시:
+
+1. 프로젝트 분석 (package.json, go.mod, pyproject.toml 등)
+2. 적합한 템플릿 선택 (`~/.claude/templates/`에서)
+   - Node.js 프로젝트 → nodejs.md
+   - TypeScript 사용 → typescript.md 추가
+   - Python 프로젝트 → python.md
+3. 템플릿 내용 + 프로젝트 정보로 `.claude/CLAUDE.md` 생성
+
+---
+
+## CLAUDE.md 작성 형식
 
 ```md
 ## 프로젝트 개요
@@ -23,11 +34,7 @@
 
 ---
 
-## 기술 스택
-
-- 런타임: (package.json, go.mod 등에서 추론)
-- 프레임워크: (dependencies에서 추론)
-- 데이터베이스: (있는 경우)
+(해당 템플릿 내용 삽입)
 
 ---
 
