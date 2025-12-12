@@ -33,12 +33,20 @@ cd my-claude-code-config
 
 ### 프로젝트별 설정
 
-1. `~/.claude/templates/`에서 필요한 템플릿 복사
-2. 프로젝트 루트에 `CLAUDE.md` 생성
-3. 선택지에서 필요한 것 선택 (볼드 = 기본값)
+프로젝트 루트에 `.claude/` 디렉터리 생성 후 설정:
 
 ```bash
-# 예시
-cat ~/.claude/templates/nodejs.md >> ./CLAUDE.md
-cat ~/.claude/templates/typescript.md >> ./CLAUDE.md
+mkdir -p .claude/rules
+
+# 메인 설정 파일
+cat ~/.claude/templates/nodejs.md >> .claude/CLAUDE.md
+cat ~/.claude/templates/typescript.md >> .claude/CLAUDE.md
+
+# 추가 규칙 (선택)
+echo "# 프로젝트 전용 규칙" > .claude/rules/project.md
 ```
+
+Claude Code가 자동으로 로드하는 파일:
+- `.claude/CLAUDE.md` - 프로젝트 메인 설정
+- `.claude/CLAUDE.local.md` - 로컬 전용 (gitignore)
+- `.claude/rules/**/*.md` - 추가 규칙

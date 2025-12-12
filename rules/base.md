@@ -1,4 +1,17 @@
-# 프로젝트 CLAUDE.md 작성 규칙
+# 프로젝트 설정 규칙
+
+## 파일 위치
+
+프로젝트 레벨 Claude Code 설정은 반드시 `.claude/` 디렉터리 안에 생성:
+- `.claude/CLAUDE.md` - 메인 설정
+- `.claude/CLAUDE.local.md` - 로컬 전용 (gitignore)
+- `.claude/rules/**/*.md` - 추가 규칙
+
+루트에 `CLAUDE.md` 직접 생성 금지.
+
+---
+
+## CLAUDE.md 작성 형식
 
 프로젝트 CLAUDE.md 작성 요청 시 다음 형식 사용:
 
