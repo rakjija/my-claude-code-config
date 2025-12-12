@@ -16,10 +16,7 @@
 프로젝트 CLAUDE.md 작성 요청 시:
 
 1. 프로젝트 분석 (package.json, go.mod, pyproject.toml 등)
-2. 적합한 템플릿 선택 (`~/.claude/templates/`에서)
-   - Node.js 프로젝트 → nodejs.md
-   - TypeScript 사용 → typescript.md 추가
-   - Python 프로젝트 → python.md
+2. 적합한 템플릿 선택 (`~/.claude/templates/` 참조)
 3. 템플릿 내용 + 프로젝트 정보로 `.claude/CLAUDE.md` 생성
 
 ---
