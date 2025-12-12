@@ -11,11 +11,19 @@
 
 ---
 
+## 프로젝트 정보 수집
+
+CLAUDE.md 작성 또는 프로젝트 파악 시 다음 파일 우선 참조:
+- README.md
+- package.json / go.mod / pyproject.toml
+
+---
+
 ## CLAUDE.md 작성 절차
 
 프로젝트 CLAUDE.md 작성 요청 시:
 
-1. 프로젝트 분석 (package.json, go.mod, pyproject.toml 등)
+1. 프로젝트 정보 수집 (위 파일 참조)
 2. 적합한 템플릿 선택 (`~/.claude/templates/` 참조)
 3. 템플릿 내용 + 프로젝트 정보로 `.claude/CLAUDE.md` 생성
 
