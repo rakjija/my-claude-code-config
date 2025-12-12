@@ -21,10 +21,17 @@ if [ -d "$CLAUDE_DIR/rules" ] && [ ! -L "$CLAUDE_DIR/rules" ]; then
     mv "$CLAUDE_DIR/rules" "$CLAUDE_DIR/rules.backup"
 fi
 
+if [ -d "$CLAUDE_DIR/templates" ] && [ ! -L "$CLAUDE_DIR/templates" ]; then
+    echo "기존 templates 백업: $CLAUDE_DIR/templates.backup"
+    mv "$CLAUDE_DIR/templates" "$CLAUDE_DIR/templates.backup"
+fi
+
 # 심볼릭 링크 생성
 ln -sf "$SCRIPT_DIR/CLAUDE.md" "$CLAUDE_DIR/CLAUDE.md"
 ln -sf "$SCRIPT_DIR/rules" "$CLAUDE_DIR/rules"
+ln -sf "$SCRIPT_DIR/templates" "$CLAUDE_DIR/templates"
 
 echo "완료!"
 echo "  $CLAUDE_DIR/CLAUDE.md -> $SCRIPT_DIR/CLAUDE.md"
 echo "  $CLAUDE_DIR/rules -> $SCRIPT_DIR/rules"
+echo "  $CLAUDE_DIR/templates -> $SCRIPT_DIR/templates"
