@@ -7,31 +7,29 @@ CLAUDE_DIR="$HOME/.claude"
 
 echo "Claude Code 전역 설정 설치 중..."
 
-# ~/.claude 디렉토리 생성
 mkdir -p "$CLAUDE_DIR"
 
-# 기존 파일 백업
-if [ -f "$CLAUDE_DIR/CLAUDE.md" ] && [ ! -L "$CLAUDE_DIR/CLAUDE.md" ]; then
-    echo "기존 CLAUDE.md 백업: $CLAUDE_DIR/CLAUDE.md.backup"
-    mv "$CLAUDE_DIR/CLAUDE.md" "$CLAUDE_DIR/CLAUDE.md.backup"
-fi
+link_item() {
+    local name=$1
+    local src="$SCRIPT_DIR/$name"
+    local dest="$CLAUDE_DIR/$name"
+    
+    # 기존 심볼릭 링크 삭제
+    if [ -L "$dest" ]; then
+        rm "$dest"
+    # 기존 파일/디렉터리 백업
+    elif [ -e "$dest" ]; then
+        echo "기존 $name 백업: $dest.backup"
+        mv "$dest" "$dest.backup"
+    fi
+    
+    ln -sfn "$src" "$dest"
+    echo "  $dest -> $src"
+}
 
-if [ -d "$CLAUDE_DIR/rules" ] && [ ! -L "$CLAUDE_DIR/rules" ]; then
-    echo "기존 rules 백업: $CLAUDE_DIR/rules.backup"
-    mv "$CLAUDE_DIR/rules" "$CLAUDE_DIR/rules.backup"
-fi
-
-if [ -d "$CLAUDE_DIR/templates" ] && [ ! -L "$CLAUDE_DIR/templates" ]; then
-    echo "기존 templates 백업: $CLAUDE_DIR/templates.backup"
-    mv "$CLAUDE_DIR/templates" "$CLAUDE_DIR/templates.backup"
-fi
-
-# 심볼릭 링크 생성
-ln -sf "$SCRIPT_DIR/CLAUDE.md" "$CLAUDE_DIR/CLAUDE.md"
-ln -sf "$SCRIPT_DIR/rules" "$CLAUDE_DIR/rules"
-ln -sf "$SCRIPT_DIR/templates" "$CLAUDE_DIR/templates"
+link_item "CLAUDE.md"
+link_item "rules"
+link_item "templates"
+link_item "commands"
 
 echo "완료!"
-echo "  $CLAUDE_DIR/CLAUDE.md -> $SCRIPT_DIR/CLAUDE.md"
-echo "  $CLAUDE_DIR/rules -> $SCRIPT_DIR/rules"
-echo "  $CLAUDE_DIR/templates -> $SCRIPT_DIR/templates"

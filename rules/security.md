@@ -1,13 +1,10 @@
 # 보안 규칙
 
-## 커밋 금지 파일
+## 커밋 금지
 
-- `.env`, `.env.*`
-- `credentials.json`, `secrets.json`
-- API 키, 토큰, 비밀번호가 포함된 파일
-- `*.pem`, `*.key` (인증서/키 파일)
-
----
+- `.env*`, `credentials.json`, `secrets.json`
+- `*.pem`, `*.key`
+- API 키, 토큰, 비밀번호 포함 파일
 
 ## 코드 작성
 
