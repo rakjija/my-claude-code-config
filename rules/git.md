@@ -1,5 +1,9 @@
 # Git 규칙
 
+## 작업 순서
+
+포맷 → 빌드 → 커밋 → 푸시
+
 ## 커밋 메시지
 
 - Conventional Commits 형식 사용
