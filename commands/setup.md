@@ -6,8 +6,8 @@
 
 ```
 project/
-├── README.md          # 프로젝트 문서 + TODO + AI 규칙 (전부)
-├── AGENTS.md          # @README.md
+├── README.md          # 프로젝트 문서 + AI 규칙
+├── AGENTS.md          # @README.md + TODO
 └── .claude/
     └── CLAUDE.md      # @../AGENTS.md
 ```
@@ -20,13 +20,13 @@ project/
 3. README.md 처리:
 
    - 없으면 → 템플릿 기반으로 생성
-   - 있으면 → 누락된 섹션(TODO, AI 규칙) 추가
+   - 있으면 → 누락된 섹션(AI 규칙) 추가
 
-4. AGENTS.md 생성/수정 (`@README.md`만)
+4. AGENTS.md 생성/수정 (@README.md + TODO)
 
 5. .claude/CLAUDE.md 생성 (`@../AGENTS.md`만)
 
-6. 기존 AGENTS.md나 CLAUDE.md에 커스텀 내용 있으면 → README.md로 병합
+6. 기존 AGENTS.md나 CLAUDE.md에 커스텀 내용 있으면 → AGENTS.md로 병합
 
 ## README.md 형식
 
@@ -40,10 +40,6 @@ project/
 
 ## 사용법
 ...
-
-## TODO
-
-(rules/todo.md 형식 참조)
 
 ## AI 작업 규칙
 - (프로젝트별 주의사항)
@@ -60,6 +56,10 @@ project/
 
 ```
 @README.md
+
+## TODO
+
+(rules/todo.md 형식 참조)
 ```
 
 ## .claude/CLAUDE.md 형식
