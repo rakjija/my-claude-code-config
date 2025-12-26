@@ -2,6 +2,8 @@
 
 @rules/git.md
 @rules/security.md
+@rules/tdd.md
+@rules/vibe-coding.md
 
 ## 대화 규칙
 
