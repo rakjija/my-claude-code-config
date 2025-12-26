@@ -5,4 +5,4 @@
 @rules/security.md
 @rules/tdd.md
 @rules/todo.md
-@rules/vibe-coding.md
+@rules/workflow.md
