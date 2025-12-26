@@ -1,32 +1,8 @@
 # CLAUDE.md
 
 @rules/git.md
+@rules/response.md
 @rules/security.md
 @rules/tdd.md
 @rules/todo.md
 @rules/vibe-coding.md
-
-## 대화 규칙
-
-- 한글 응답
-- 간결하게, 질문에만 답변
-- 불명확하면 먼저 질문
-
-## 코드 수정 방식
-
-- "무엇을/왜" 바꾸는지 간단히 설명 후 바로 수정
-- 승인 대기 X, 플랜만 제시 X
-
-형식:
-
-```
-▶ **WHAT ?**
-
-- 변경 전/후 코드 비교
-
-▶ **WHY ?**
-
-- 현재 문제
-- 해결
-- 효과
-```

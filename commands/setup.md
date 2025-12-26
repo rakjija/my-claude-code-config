@@ -1,5 +1,7 @@
 프로젝트 CLAUDE.md 구조 설정/마이그레이션:
 
+@rules/todo.md
+
 ## 구조
 
 ```
@@ -40,7 +42,8 @@ project/
 ...
 
 ## TODO
-- [ ]
+
+(rules/todo.md 형식 참조)
 
 ## AI 작업 규칙
 - (프로젝트별 주의사항)
