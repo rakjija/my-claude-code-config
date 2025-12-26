@@ -3,6 +3,7 @@
 @rules/git.md
 @rules/security.md
 @rules/tdd.md
+@rules/todo.md
 @rules/vibe-coding.md
 
 ## 대화 규칙
@@ -29,15 +30,3 @@
 - 해결
 - 효과
 ```
-
-## TODO 관리 (필수)
-
-- 세션 시작 시 → README.md TODO 확인 후 미완료 항목 안내
-- 작업 요청 → 우선순위 판단 후 TODO 추가 → 작업 → 완료 시 `[x]` 체크
-- 우선순위: High (긴급/블로커) / Medium (일반) / Low (나중에)
-
-예시:
-
-1. "에러 났어" → README.md TODO High에 `- [ ] 에러 수정: ...` 추가
-2. 작업 진행
-3. 해결 → `- [x] 에러 수정: ...` 체크
