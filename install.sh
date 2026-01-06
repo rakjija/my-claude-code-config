@@ -28,8 +28,7 @@ link_item() {
 }
 
 link_item "CLAUDE.md"
-link_item "rules"
-link_item "templates"
+link_item "specs"
 link_item "commands"
 
 echo "완료!"
