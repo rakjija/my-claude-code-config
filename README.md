@@ -23,7 +23,7 @@ cd my-claude-code-config
 │   ├── planning.md
 │   ├── spec.md
 │   ├── internalize.md
-│   ├── response.md
+│   ├── ai_response.md
 │   ├── readme.md
 │   └── agents.md
 └── commands/         # 슬래시 커맨드
