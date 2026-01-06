@@ -21,15 +21,9 @@ project/
 
 @specs/todo.md
 
-### AGENTS.md
+### AGENTS.md / CLAUDE.md / GEMINI.md
 
-@specs/agents.md
-
-### CLAUDE.md / GEMINI.md
-
-```
-@AGENTS.md
-```
+@specs/ai_agents.md
 
 ## 절차
 

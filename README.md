@@ -20,7 +20,7 @@ cd my-claude-code-config
 │   ├── security.md
 │   ├── todo.md
 │   ├── readme.md
-│   └── agents.md
+│   └── ai_agents.md
 ├── workflows/        # 개발 프로세스
 │   ├── main.md
 │   ├── planning.md
