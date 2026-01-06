@@ -4,11 +4,11 @@
 
 ### 1. 기획
 
-@specs/planning.md 참고
+@workflows/planning.md 참고
 
 ### 2. 스펙 정의
 
-@specs/spec.md 참고
+@workflows/spec.md 참고
 
 ### 3. 테스트 작성 (TDD RED)
 
@@ -61,7 +61,7 @@ codex review --base main
 
 ### 9. 자가 리뷰 (내재화 확인)
 
-@specs/internalize.md 참고
+@workflows/internalize.md 참고
 
 ### 10. 커밋/푸시
 
@@ -108,15 +108,15 @@ AI 코드 리뷰        : 5분
 
 ## 체크리스트
 
-- [ ] 1. 기획 (@specs/planning.md)
-- [ ] 2. 스펙 정의 (@specs/spec.md)
+- [ ] 1. 기획 (@workflows/planning.md)
+- [ ] 2. 스펙 정의 (@workflows/spec.md)
 - [ ] 3. 테스트 작성 (@specs/tdd.md RED)
 - [ ] 4. 개발 (GREEN + REFACTOR)
 - [ ] 5. 테스트 실행
 - [ ] 6. 린팅/포매팅
 - [ ] 7. 빌드
 - [ ] 8. AI 코드 리뷰 (Codex)
-- [ ] 9. 자가 리뷰 (@specs/internalize.md)
+- [ ] 9. 자가 리뷰 (@workflows/internalize.md)
 - [ ] 10. 커밋/푸시 (@specs/git.md)
 
 ---

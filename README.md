@@ -13,17 +13,19 @@ cd my-claude-code-config
 ## 구조
 
 ```
-├── CLAUDE.md         # 전역 설정 (specs 참조)
-├── specs/            # 명세 (규칙 + 형식)
+├── CLAUDE.md         # 전역 설정
+├── specs/            # 규칙
+│   ├── ai_response.md
 │   ├── git.md
 │   ├── security.md
 │   ├── tdd.md
-│   ├── todo.md
-│   ├── workflow.md
+│   └── todo.md
+├── workflows/        # 개발 프로세스
+│   ├── main.md
 │   ├── planning.md
 │   ├── spec.md
-│   ├── internalize.md
-│   ├── ai_response.md
+│   └── internalize.md
+├── templates/        # 문서 형식
 │   ├── readme.md
 │   └── agents.md
 └── commands/         # 슬래시 커맨드

@@ -5,4 +5,4 @@
 @specs/security.md
 @specs/tdd.md
 @specs/todo.md
-@specs/workflow.md
+@workflows/main.md
