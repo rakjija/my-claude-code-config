@@ -6,6 +6,13 @@
 
 - (설치 방법, 테스트 등등..)
 
+## 개발 환경
+
+- 언어/버전: (예: Node.js 22 LTS, Python 3.12, Go 1.23)
+- 패키지 매니저: (예: pnpm, uv, go modules)
+- 린터/포매터: (예: Biome, Ruff, golangci-lint)
+- 테스트: (예: pnpm test, pytest, go test ./...)
+
 ## 작업 규칙
 
 - (프로젝트별 주의사항. 인간, AI 공통 참조)
