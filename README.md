@@ -14,20 +14,19 @@ cd my-claude-code-config
 
 ```
 ├── CLAUDE.md         # 전역 설정
-├── specs/            # 규칙
+├── specs/            # 규칙 + 문서 형식
 │   ├── ai_response.md
 │   ├── git.md
 │   ├── security.md
-│   └── todo.md
+│   ├── todo.md
+│   ├── readme.md
+│   └── agents.md
 ├── workflows/        # 개발 프로세스
 │   ├── main.md
 │   ├── planning.md
 │   ├── spec.md
 │   ├── tdd.md
 │   └── internalize.md
-├── templates/        # 문서 형식
-│   ├── readme.md
-│   └── agents.md
 └── commands/         # 슬래시 커맨드
     ├── setup.md      # /setup - 프로젝트 초기화
     └── readme.md     # /readme - README 생성/수정

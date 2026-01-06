@@ -1,6 +1,4 @@
-프로젝트 CLAUDE.md 구조 설정/마이그레이션:
-
-@specs/todo.md
+프로젝트 구조 설정/마이그레이션:
 
 ## 구조
 
@@ -13,33 +11,31 @@ project/
 └── GEMINI.md          # @AGENTS.md
 ```
 
-## 절차
+## 형식
 
-1. README.md, package.json / go.mod / pyproject.toml 확인
-2. `templates/`에서 형식 확인
+### README.md
 
-3. README.md 처리: @commands/readme.md
+@specs/readme.md
 
-4. AGENTS.md 생성/수정 (@README.md + @TODO.md)
+### TODO.md
 
-5. TODO.md 생성
+@specs/todo.md
 
-6. CLAUDE.md 생성 (`@AGENTS.md`만)
+### AGENTS.md
 
-7. GEMINI.md 생성 (`@AGENTS.md`만)
+@specs/agents.md
 
-8. 기존 AGENTS.md, CLAUDE.md, GEMINI.md에 커스텀 내용 있으면 → AGENTS.md로 병합
-
-## README.md 형식
-
-(templates/readme.md 형식 참조)
-
-## AGENTS.md 형식
-
-(templates/agents.md 형식 참조)
-
-## CLAUDE.md 형식
+### CLAUDE.md / GEMINI.md
 
 ```
 @AGENTS.md
 ```
+
+## 절차
+
+1. README.md, 프로젝트 설정 파일 확인
+2. README.md 처리: @commands/readme.md
+3. TODO.md 생성
+4. AGENTS.md 생성
+5. CLAUDE.md 생성
+6. GEMINI.md 생성

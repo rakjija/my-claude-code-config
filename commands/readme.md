@@ -1,12 +1,15 @@
 README.md 생성/업데이트:
 
-@templates/readme.md
+@specs/readme.md
 
 ## 절차
 
-1. 프로젝트 분석 (package.json / go.mod / 디렉터리 구조)
+1. 프로젝트 분석
 2. README.md 없으면 → 템플릿 기반 생성
-3. README.md 있으면 → 누락 섹션 추가, 오래된 내용 수정
+3. README.md 있으면:
+   - 누락 섹션 추가
+   - 오래된 내용 수정
+   - 기존 AGENTS.md, CLAUDE.md, GEMINI.md 내용 → README.md로 병합
 
 ## 규칙
 
