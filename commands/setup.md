@@ -18,10 +18,7 @@ project/
 1. README.md, package.json / go.mod / pyproject.toml 확인
 2. `templates/`에서 적합한 템플릿 선택
 
-3. README.md 처리:
-
-   - 없으면 → 템플릿 기반으로 생성
-   - 있으면 → 누락된 섹션(AI 규칙) 추가
+3. README.md 처리: @commands/readme.md
 
 4. AGENTS.md 생성/수정 (@README.md + @TODO.md)
 

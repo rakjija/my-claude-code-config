@@ -1,23 +1,12 @@
 README.md 생성/업데이트:
 
+@templates/readme.md
+
 ## 절차
 
-1. 프로젝트 분석:
-
-   - package.json / go.mod / pyproject.toml
-   - 디렉터리 구조
-   - 기존 README.md (있으면)
-
-2. README.md 없으면 → 새로 생성
-3. README.md 있으면 → 현재 코드 상태와 비교해서 업데이트
-
-## 포함할 섹션
-
-- 프로젝트 설명 (1-2줄)
-- 설치 방법
-- 사용법 / 명령어
-- 프로젝트 구조 (필요시)
-- 환경 설정 (필요시)
+1. 프로젝트 분석 (package.json / go.mod / 디렉터리 구조)
+2. README.md 없으면 → 템플릿 기반 생성
+3. README.md 있으면 → 누락 섹션 추가, 오래된 내용 수정
 
 ## 규칙
 
