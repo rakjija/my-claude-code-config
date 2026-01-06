@@ -1,8 +1,8 @@
 # CLAUDE.md
 
-@rules/git.md
-@rules/response.md
-@rules/security.md
-@rules/tdd.md
-@rules/todo.md
-@rules/workflow.md
+@specs/git.md
+@specs/response.md
+@specs/security.md
+@specs/tdd.md
+@specs/todo.md
+@specs/workflow.md
