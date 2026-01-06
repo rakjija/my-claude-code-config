@@ -16,7 +16,7 @@ project/
 ## 절차
 
 1. README.md, package.json / go.mod / pyproject.toml 확인
-2. `templates/`에서 적합한 템플릿 선택
+2. `rules/`에서 형식 확인
 
 3. README.md 처리: @commands/readme.md
 
@@ -32,11 +32,11 @@ project/
 
 ## README.md 형식
 
-(templates/readme.md 형식 참조)
+(rules/readme.md 형식 참조)
 
 ## AGENTS.md 형식
 
-(templates/agents.md 형식 참조)
+(rules/agents.md 형식 참조)
 
 ## CLAUDE.md 형식
 

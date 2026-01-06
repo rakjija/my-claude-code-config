@@ -1,6 +1,6 @@
 README.md 생성/업데이트:
 
-@templates/readme.md
+@rules/readme.md
 
 ## 절차
 
