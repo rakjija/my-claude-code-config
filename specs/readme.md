@@ -1,4 +1,4 @@
-# README.md 규칙
+# README.md
 
 ## 형식
 

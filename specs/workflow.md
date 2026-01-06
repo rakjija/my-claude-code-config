@@ -1,18 +1,18 @@
-# 워크플로우 규칙
+# Workflow
 
-## 피처 개발 워크플로우
+## 피처 개발
 
 ### 1. 기획
 
-@rules/planning.md 참고
+@specs/planning.md 참고
 
 ### 2. 스펙 정의
 
-@rules/spec.md 참고
+@specs/spec.md 참고
 
 ### 3. 테스트 작성 (TDD RED)
 
-@rules/tdd.md 참고
+@specs/tdd.md 참고
 
 ### 4. 개발 (TDD GREEN + REFACTOR)
 
@@ -37,7 +37,7 @@ AI 코드 생성 시 내재화 프로세스 적용:
 
 ### 6. 린팅/포매팅
 
-@rules/git.md 작업 순서 참고
+@specs/git.md 참고
 
 ### 7. 빌드
 
@@ -61,11 +61,11 @@ codex review --base main
 
 ### 9. 자가 리뷰 (내재화 확인)
 
-@rules/internalize.md 참고
+@specs/internalize.md 참고
 
 ### 10. 커밋/푸시
 
-@rules/git.md 참고
+@specs/git.md 참고
 
 ## 동료 리뷰
 
@@ -78,7 +78,7 @@ codex review --base main
 - 막히면 그때 AI나 기존 코드 참고
 - 가장 강력한 내재화
 
-## DevOps/인프라 우선순위
+## DevOps 우선순위
 
 ### 높음
 
@@ -106,22 +106,22 @@ AI 코드 리뷰        : 5분
 총                  : 1.5~2시간
 ```
 
-## 체크리스트 (10단계 확인)
+## 체크리스트
 
-- [ ] 1. 기획 (@rules/planning.md)
-- [ ] 2. 스펙 정의 (@rules/spec.md)
-- [ ] 3. 테스트 작성 (@rules/tdd.md RED)
+- [ ] 1. 기획 (@specs/planning.md)
+- [ ] 2. 스펙 정의 (@specs/spec.md)
+- [ ] 3. 테스트 작성 (@specs/tdd.md RED)
 - [ ] 4. 개발 (GREEN + REFACTOR)
 - [ ] 5. 테스트 실행
 - [ ] 6. 린팅/포매팅
 - [ ] 7. 빌드
 - [ ] 8. AI 코드 리뷰 (Codex)
-- [ ] 9. 자가 리뷰 (@rules/internalize.md)
-- [ ] 10. 커밋/푸시 (@rules/git.md)
+- [ ] 9. 자가 리뷰 (@specs/internalize.md)
+- [ ] 10. 커밋/푸시 (@specs/git.md)
 
 ---
 
-## 버그 수정 워크플로우
+## 버그 수정
 
 피처 개발보다 간소화된 버전
 
@@ -160,7 +160,7 @@ AI 코드 리뷰        : 5분
 
 ### 7. 커밋/푸시
 
-@rules/git.md 참고
+@specs/git.md 참고
 
 ### 버그 수정 타임라인
 

@@ -1,4 +1,4 @@
-# 내재화 규칙
+# Internalize
 
 ## 목적
 
@@ -70,7 +70,7 @@ Claude의 상세 해설:
 
 ---
 
-## 실제 예시: Terraform 코드
+## 예시: Terraform 코드
 
 ### 상황
 
@@ -120,7 +120,7 @@ resource "random_password" "db_password" {
 
 ---
 
-## DevOps/인프라 특화 내재화
+## DevOps 특화 내재화
 
 ### IaC 코드의 특수성
 
@@ -157,7 +157,7 @@ terraform apply # 실제 동작 확인
 
 ---
 
-## 내재화 체크리스트
+## 체크리스트
 
 ### 퀴즈 단계 후
 
@@ -205,7 +205,7 @@ terraform apply # 실제 동작 확인
 
 ---
 
-## 팁: DevOps 코드는 더 빠르다
+## 팁
 
 IaC 코드는 선언적이라:
 

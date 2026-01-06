@@ -1,4 +1,4 @@
-# AGENTS.md 규칙
+# AGENTS.md
 
 ## 형식
 
