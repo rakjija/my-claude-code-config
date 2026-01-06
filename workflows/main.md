@@ -12,7 +12,7 @@
 
 ### 3. 테스트 작성 (TDD RED)
 
-@specs/tdd.md 참고
+@workflows/tdd.md 참고
 
 ### 4. 개발 (TDD GREEN + REFACTOR)
 
@@ -110,7 +110,7 @@ AI 코드 리뷰        : 5분
 
 - [ ] 1. 기획 (@workflows/planning.md)
 - [ ] 2. 스펙 정의 (@workflows/spec.md)
-- [ ] 3. 테스트 작성 (@specs/tdd.md RED)
+- [ ] 3. 테스트 작성 (@workflows/tdd.md RED)
 - [ ] 4. 개발 (GREEN + REFACTOR)
 - [ ] 5. 테스트 실행
 - [ ] 6. 린팅/포매팅

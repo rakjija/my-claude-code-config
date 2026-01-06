@@ -18,12 +18,12 @@ cd my-claude-code-config
 │   ├── ai_response.md
 │   ├── git.md
 │   ├── security.md
-│   ├── tdd.md
 │   └── todo.md
 ├── workflows/        # 개발 프로세스
 │   ├── main.md
 │   ├── planning.md
 │   ├── spec.md
+│   ├── tdd.md
 │   └── internalize.md
 ├── templates/        # 문서 형식
 │   ├── readme.md
