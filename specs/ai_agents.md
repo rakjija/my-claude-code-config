@@ -6,7 +6,6 @@
 
 ```markdown
 @README.md
-@TODO.md
 ```
 
 ## CLAUDE.md

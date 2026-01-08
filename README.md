@@ -18,7 +18,6 @@ cd my-claude-code-config
 │   ├── ai_response.md
 │   ├── git.md
 │   ├── security.md
-│   ├── todo.md
 │   ├── readme.md
 │   └── ai_agents.md
 ├── workflows/        # 개발 프로세스
@@ -50,8 +49,7 @@ cd my-claude-code-config
 ```
 project/
 ├── README.md      # 프로젝트 문서 + AI 규칙
-├── AGENTS.md      # @README.md + @TODO.md
-├── TODO.md        # TODO 관리
+├── AGENTS.md      # @README.md
 ├── CLAUDE.md      # @AGENTS.md
 └── GEMINI.md      # @AGENTS.md
 ```
