@@ -1,6 +1,6 @@
-# my-claude-code-config
+# aigent-config
 
-Claude Code 전역 설정 파일 모음
+AI Agent 전역 설정 파일 모음
 
 ## 설치
 
@@ -29,6 +29,13 @@ cd my-claude-code-config
 └── commands/         # 슬래시 커맨드
     ├── setup.md      # /setup - 프로젝트 초기화
     └── readme.md     # /readme - README 생성/수정
+```
+
+```
+헌법(AGENTS)
+  ├─ 규칙(specs)
+  ├─ 절차(workflows)
+  └─ 매뉴얼(commands)
 ```
 
 ## 사용법
